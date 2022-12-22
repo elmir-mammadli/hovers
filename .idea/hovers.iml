@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="vue-i18n" level="application" />
+    <orderEntry type="library" name="i18nextify" level="application" />
   </component>
 </module>
