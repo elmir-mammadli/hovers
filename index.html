@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 
 		<!-- Basic -->
@@ -52,7 +52,7 @@
 	</head>
 	<body data-plugin-scroll-spy data-plugin-options="{'target': '#sidebar'}">
 
-		<div class="body">
+		<div class="body" id="app">
 			<header id="header" class="header-transparent header-semi-transparent header-semi-transparent-light" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 1, 'stickySetTop': '1'}">
 				<div id="main_header"></div>
 			</header>
@@ -73,7 +73,7 @@
 												<span class="position-absolute bottom-100 left-0 transform3dy-p50 w-100 pt-4 ms-0">
 													<span class="d-inline-flex custom-outline-text-style-1 text-2 text-center appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1300">ARB</span>
 												</span>
-												ARB<br>STUDIO
+												ARB <br/> STUDIO
 												<span class="position-absolute top-100 left-0 transform3dy-n50 w-100 pt-4 ms-0">
 													<span class="d-inline-flex custom-outline-text-style-1 text-2 text-center appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1300">STUDIO</span>
 												</span>
@@ -399,8 +399,17 @@
 		</div>
 
 <!--			Vue-->
-		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<!--		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>-->
 
+		<script src="https://unpkg.com/vue@3"></script>
+		<script src="https://unpkg.com/vue-i18n@9"></script>
+		<script src="js/i18n/vue-i18n.js"></script>
+		<script src="js/main.js"></script>
+
+		<script>
+			import {useI18n} from "./js/i18n/vue-i18n"
+			const { t } = useI18n({useScope: 'global'})
+		</script>
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>
