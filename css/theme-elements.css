@@ -14325,10 +14325,9 @@ html.ie11 .scroll-to-top {
 
 /* Section Featured */
 section.section {
-	background: #f7f7f7;
-	border-top: 5px solid #f1f1f1;
-	margin: 30px 0;
-	padding: 50px 0;
+	background-image: url('../img/gray_back.jpeg');
+	background-size: contain;
+	background-repeat: repeat;
 }
 
 section.section > .container {
