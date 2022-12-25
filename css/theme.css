@@ -10086,6 +10086,14 @@ a.text-light:focus, a.text-light:hover {
 	opacity: 0.85;
 }
 
+#footer .btn-footer-news {
+	background-color: #233683;
+}
+
+#footer .btn-footer-news svg {
+	color: #FFF;
+}
+
 #footer form label.error {
 	line-height: 16px;
 	margin: 5px 0 -5px;
