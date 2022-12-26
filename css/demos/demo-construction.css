@@ -228,6 +228,7 @@ html #header .header-nav-features:after {
 html.sticky-header-active #header .header-body {
 		background: rgba(255, 255, 255, 0.8);
 		transform: translate3d(0, 0, 0);
+		box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
 html.sticky-header-active #header .header-logo.custom-header-logo {
@@ -239,6 +240,7 @@ html.sticky-header-active #header .header-logo.custom-header-logo:before {
 		visibility: hidden;
 		transform: rotate(45deg) translate3d(0, -20px, 0);
 		transition: ease all 300ms;
+
 }
 
 html.sticky-header-active #header .header-logo .logo {
@@ -261,6 +263,7 @@ html.sticky-header-active #header .header-container {
 
 html:not(.sticky-header-active) #header.header-semi-transparent-light .header-body {
 		background-color: #FFF !important;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 @media (min-width: 992px) {

@@ -1363,6 +1363,7 @@ html #header.header-transparent {
 
 html #header.header-transparent .header-body:not(.header-border-bottom) {
 	border-bottom: 0;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 html:not(.sticky-header-active) #header.header-transparent:not(.header-semi-transparent) .header-body {
@@ -1371,6 +1372,7 @@ html:not(.sticky-header-active) #header.header-transparent:not(.header-semi-tran
 
 html:not(.sticky-header-active) #header.header-semi-transparent-light .header-body {
 	background-color: rgba(255, 255, 255, 0.8) !important;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 html:not(.sticky-header-active) #header.header-semi-transparent-dark .header-body {

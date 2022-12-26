@@ -11894,6 +11894,13 @@ html body .rounded-circle {
 	.col-half-section {
 		max-width: 100%;
 	}
+	.list-unstyled {
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 25px;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 /* Content Grid */
