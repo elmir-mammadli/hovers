@@ -1,0 +1,26 @@
+                  <div class="col-sm-6 col-md-4 isotope-item pre-construction">
+                    <div
+                      class="portfolio-item appear-animation"
+                      data-appear-animation="fadeInUpShorterPlus"
+                      data-appear-animation-delay="1200"
+                    >
+                      <div
+                        class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons mb-3-5"
+                      >
+                        <div class="thumb-info-wrapper">
+                          <img src="img/demos/construction/generic/generic-1-medium.jpg" class="img-fluid" alt="Pre Construction Image Sample"
+                          />
+                          <div class="thumb-info-action">
+                            <a href="projects-detail.html">
+                              <div
+                                class="thumb-info-action-icon thumb-info-action-icon-light"
+                              >
+                                <i class="fas fa-plus text-dark"></i>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="d-block text-color-grey positive-ls-3 font-weight-medium text-2">NEW YORK</span> <h2 class="font-weight-bold text-5-5 line-height-3"><a href="projects-detail.html" class="text-color-dark text-color-hover-primary text-decoration-none" >Porto Building</a></h2>
+                    </div>
+                  </div>
