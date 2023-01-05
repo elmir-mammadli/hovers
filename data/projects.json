@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "img": "banner1.png",
+      "subTitle": "NEW YORK",
+      "title": "Porto Building",
+      "descrip": "",
+      "subdescrip": "",
+      "imgList": [
+        "img/demos/construction/generic/generic-1-medium.jpg"
+      ]
+    }
+]
