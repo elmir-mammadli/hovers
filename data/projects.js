@@ -1,22 +1,22 @@
 const projects = [
   {
     id: 1,
-    img: "banner1.png",
-    subTitle: "AYDIN",
-    title: "PEYSERDI",
-    descrp: "AMCIGDI AYDIN",
+    img: "public/img/homepage/azfar_1.jpg",
+    subTitle: "project_1.title",
+    title: "Building of AZFAR Residence in Baku WHITE CITY",
+    descrp: "Construction of french type of residence building (construction area 17450m2; two floors car parking; 70 apartments; 6 bloks; 7 floors)",
     subdescrp: "CINDIRDI AYDIN.",
     imgList: [
       //3 штуки должно быть максимум
-      "https://d3cl79h6n1fe0x.cloudfront.net/wp-content/uploads/2018/03/12131948/AdobeStock_88620839.jpeg",
-      "img/demos/construction/generic/generic-3-medium.jpg",
-      "img/demos/construction/generic/generic-10-medium.jpg",
+      "public/img/projects/azfar/azfar_2.jpg",
+      "public/img/projects/azfar/azfar_3.jpg",
+      "public/img/projects/azfar/azfar_4.jpg",
     ],
     smallImgList: [
       //3 штуки должно быть максимум
-      "img/demos/construction/generic/generic-2-small.jpg",
-      "img/demos/construction/generic/generic-3-small.jpg",
-      "img/demos/construction/generic/generic-10-small.jpg",
+      "public/img/projects/azfar/azfar_2.jpg",
+      "public/img/projects/azfar/azfar_3.jpg",
+      "public/img/projects/azfar/azfar_4.jpg",
     ],
   },
   {
@@ -28,15 +28,15 @@ const projects = [
     subdescrp: "AYDINI SIKIR MURAD.",
     imgList: [
       //3 штуки должно быть максимум
-      "img/demos/construction/generic/generic-1-medium.jpg",
-      "img/demos/construction/generic/generic-3-medium.jpg",
-      "img/demos/construction/generic/generic-10-medium.jpg",
+      "public/img/demos/construction/generic/generic-1-medium.jpg",
+      "public/img/demos/construction/generic/generic-3-medium.jpg",
+      "public/img/demos/construction/generic/generic-10-medium.jpg",
     ],
     smallImgList: [
       //3 штуки должно быть максимум
-      "img/demos/construction/generic/generic-2-small.jpg",
-      "img/demos/construction/generic/generic-3-small.jpg",
-      "img/demos/construction/generic/generic-10-small.jpg",
+      "public/img/demos/construction/generic/generic-2-small.jpg",
+      "public/img/demos/construction/generic/generic-3-small.jpg",
+      "public/img/demos/construction/generic/generic-10-small.jpg",
     ],
   },
   {
@@ -48,15 +48,15 @@ const projects = [
     subdescrp: "AYDINI SIKIR MURAD.",
     imgList: [
       //3 штуки должно быть максимум
-      "img/demos/construction/generic/generic-1-medium.jpg",
-      "img/demos/construction/generic/generic-3-medium.jpg",
-      "img/demos/construction/generic/generic-10-medium.jpg",
+      "public/img/demos/construction/generic/generic-1-medium.jpg",
+      "public/img/demos/construction/generic/generic-3-medium.jpg",
+      "public/img/demos/construction/generic/generic-10-medium.jpg",
     ],
     smallImgList: [
       //3 штуки должно быть максимум
-      "img/demos/construction/generic/generic-2-small.jpg",
-      "img/demos/construction/generic/generic-3-small.jpg",
-      "img/demos/construction/generic/generic-10-small.jpg",
+      "public/img/demos/construction/generic/generic-2-small.jpg",
+      "public/img/demos/construction/generic/generic-3-small.jpg",
+      "public/img/demos/construction/generic/generic-10-small.jpg",
     ],
   },
   {
@@ -68,15 +68,15 @@ const projects = [
     subdescrp: "AYDINI SIKIR MURAD.",
     imgList: [
       //3 штуки должно быть максимум
-      "img/demos/construction/generic/generic-1-medium.jpg",
-      "img/demos/construction/generic/generic-3-medium.jpg",
-      "img/demos/construction/generic/generic-10-medium.jpg",
+      "public/img/demos/construction/generic/generic-1-medium.jpg",
+      "public/img/demos/construction/generic/generic-3-medium.jpg",
+      "public/img/demos/construction/generic/generic-10-medium.jpg",
     ],
     smallImgList: [
       //3 штуки должно быть максимум
-      "img/demos/construction/generic/generic-2-small.jpg",
-      "img/demos/construction/generic/generic-3-small.jpg",
-      "img/demos/construction/generic/generic-10-small.jpg",
+      "public/img/demos/construction/generic/generic-2-small.jpg",
+      "public/img/demos/construction/generic/generic-3-small.jpg",
+      "public/img/demos/construction/generic/generic-10-small.jpg",
     ],
   },
 ];
