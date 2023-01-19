@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     img: "public/img/homepage/azfar_1.jpg",
-    subTitle: "project_1.title",
+    subTitle: "WHITE CITY, BAKU",
     title: "Building of AZFAR Residence in Baku WHITE CITY",
     descrp: "Construction of french type of residence building (construction area 17450m2; two floors car parking; 70 apartments; 6 bloks; 7 floors)",
     subdescrp: "CINDIRDI AYDIN.",
@@ -21,22 +21,22 @@ const projects = [
   },
   {
     id: 2,
-    img: "banner1.png",
-    subTitle: "MURAD",
-    title: "KRASAVCIKDI",
-    descrp: "ZORDU MURAD",
-    subdescrp: "AYDINI SIKIR MURAD.",
+    img:  "public/img/projects/mida/mida_1.jpg",
+    subTitle: "YASAMAL DISTRICT, BAKU",
+    title: "Building of Residential Complex MIDA",
+    descrp: "Construction of Residental Complex with total area of 10375 sqm. in Yasamal region in Baku. Complex consist of 12 and 9 floors residental buildings, 1 floor non-residental building, 2 basements",
+    subdescrp: "CINDIRDI AYDIN.",
     imgList: [
       //3 штуки должно быть максимум
-      "public/img/demos/construction/generic/generic-1-medium.jpg",
-      "public/img/demos/construction/generic/generic-3-medium.jpg",
-      "public/img/demos/construction/generic/generic-10-medium.jpg",
+      "public/img/projects/mida/mida_2.jpg",
+      "public/img/projects/mida/mida_3.jpg",
+      "public/img/projects/mida/mida_4.jpg",
     ],
     smallImgList: [
       //3 штуки должно быть максимум
-      "public/img/demos/construction/generic/generic-2-small.jpg",
-      "public/img/demos/construction/generic/generic-3-small.jpg",
-      "public/img/demos/construction/generic/generic-10-small.jpg",
+      "public/img/projects/mida/mida_2.jpg",
+      "public/img/projects/mida/mida_3.jpg",
+      "public/img/projects/mida/mida_4.jpg",
     ],
   },
   {
@@ -79,6 +79,86 @@ const projects = [
       "public/img/demos/construction/generic/generic-10-small.jpg",
     ],
   },
+  {
+    id: 5,
+    img: "banner1.png",
+    subTitle: "MURAD",
+    title: "KRASAVCIKDI",
+    descrp: "ZORDU MURAD",
+    subdescrp: "AYDINI SIKIR MURAD.",
+    imgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-1-medium.jpg",
+      "public/img/demos/construction/generic/generic-3-medium.jpg",
+      "public/img/demos/construction/generic/generic-10-medium.jpg",
+    ],
+    smallImgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-2-small.jpg",
+      "public/img/demos/construction/generic/generic-3-small.jpg",
+      "public/img/demos/construction/generic/generic-10-small.jpg",
+    ],
+  },
+  {
+    id: 6,
+    img: "banner1.png",
+    subTitle: "MURAD",
+    title: "KRASAVCIKDI",
+    descrp: "ZORDU MURAD",
+    subdescrp: "AYDINI SIKIR MURAD.",
+    imgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-1-medium.jpg",
+      "public/img/demos/construction/generic/generic-3-medium.jpg",
+      "public/img/demos/construction/generic/generic-10-medium.jpg",
+    ],
+    smallImgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-2-small.jpg",
+      "public/img/demos/construction/generic/generic-3-small.jpg",
+      "public/img/demos/construction/generic/generic-10-small.jpg",
+    ],
+  },
+  {
+    id: 7,
+    img: "banner1.png",
+    subTitle: "MURAD",
+    title: "KRASAVCIKDI",
+    descrp: "ZORDU MURAD",
+    subdescrp: "AYDINI SIKIR MURAD.",
+    imgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-1-medium.jpg",
+      "public/img/demos/construction/generic/generic-3-medium.jpg",
+      "public/img/demos/construction/generic/generic-10-medium.jpg",
+    ],
+    smallImgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-2-small.jpg",
+      "public/img/demos/construction/generic/generic-3-small.jpg",
+      "public/img/demos/construction/generic/generic-10-small.jpg",
+    ],
+  },
+  {
+    id: 8,
+    img: "banner1.png",
+    subTitle: "MURAD",
+    title: "KRASAVCIKDI",
+    descrp: "ZORDU MURAD",
+    subdescrp: "AYDINI SIKIR MURAD.",
+    imgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-1-medium.jpg",
+      "public/img/demos/construction/generic/generic-3-medium.jpg",
+      "public/img/demos/construction/generic/generic-10-medium.jpg",
+    ],
+    smallImgList: [
+      //3 штуки должно быть максимум
+      "public/img/demos/construction/generic/generic-2-small.jpg",
+      "public/img/demos/construction/generic/generic-3-small.jpg",
+      "public/img/demos/construction/generic/generic-10-small.jpg",
+    ],
+  },
 ];
 
 function getProjects() {
@@ -92,7 +172,7 @@ projects.forEach((elm) => {
   const ides = "card" + elm.id;
 
   $("#projects").append(
-    '<div class="col-sm-6 col-md-4 isotope-item pre-construction" id="' +
+    '<div class="col-sm-6 col-md-4 h-[100%] isotope-item pre-construction" id="' +
       ides +
       '"></div>'
   );
@@ -116,7 +196,7 @@ projects.forEach((elm) => {
       "</a></h2>"
   );
 
-  $("#" + ides + " div div").append('<div class="thumb-info-wrapper"></div>');
+  $("#" + ides + " div div").append('<div class="thumb-info-wrapper" style="height: 180px"></div>');
   $("#" + ides + " div div div").append(
     '<img src="' +
       elm.imgList[0] +
