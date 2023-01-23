@@ -29,6 +29,15 @@
         "ph_name": "Ad, Soyad",
         "ph_email": "E-mail",
         "ph_subject": "Mövzu",
-        "ph_message": "İsmarıc"
+        "ph_message": "İsmarıc",
+        "azfar_subTitle": "BAKU, AĞ ŞƏHƏR",
+        "azfar_title": "AZFAR YAŞAYIŞ BİNASININ TİKİNTİSİ ",
+        "azfar_descrp": "Tikinti sahəsi 17450m2 olan 6 blok, 7 mərtəbəli (2 mərtəbə qaraj), 70 mənzilli, fransız tipli yaşayış binasının tikintisi. ",
+        "azfar_clientName": "AZFAR MTK",
+        "azfar": {
+                "name": "HOVERS GROUP"
+        },
+        "azfar_addressName": "Bakı şəhəri, Ağ Şəhər, Yaşıl Ada rayonu",
+        "azfar_dates": "2015/2018"
 
 }
