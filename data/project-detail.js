@@ -1,7 +1,10 @@
 $("#subTitle").text(findItem(localStorage.getItem("currentProject")).subTitle);
 $("#title").text(findItem(localStorage.getItem("currentProject")).title);
 $("#descrp").text(findItem(localStorage.getItem("currentProject")).descrp);
-$("#subdescrp").text(findItem(localStorage.getItem("currentProject")).subdescrp);
+$("#clientName").text(findItem(localStorage.getItem("currentProject")).clientName);
+$("#genContr").text(findItem(localStorage.getItem("currentProject")).genContr);
+$("#addressName").text(findItem(localStorage.getItem("currentProject")).addressName);
+$("#dates").text(findItem(localStorage.getItem("currentProject")).dates);
 
 $("#img1").attr(
   "src",

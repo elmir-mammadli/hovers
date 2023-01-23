@@ -2,10 +2,13 @@ const projects = [
   {
     id: 1,
     img: "public/img/homepage/azfar_1.jpg",
-    subTitle: "WHITE CITY, BAKU",
-    title: "Building of AZFAR Residence in Baku WHITE CITY",
-    descrp: "Construction of french type of residence building (construction area 17450m2; two floors car parking; 70 apartments; 6 bloks; 7 floors)",
-    subdescrp: "CINDIRDI AYDIN.",
+    subTitle: "azfar_subTitle",
+    title: "azfar_title",
+    descrp: "azfar_descrp",
+    clientName: "azfar_clientName",
+    genContr: "azfar_genContr",
+    addressName: "azfar_addressName",
+    dates: "azfar_dates",
     imgList: [
       //3 штуки должно быть максимум
       "public/img/projects/azfar/azfar_2.jpg",

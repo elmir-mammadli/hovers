@@ -30,7 +30,11 @@
         "ph_email": "Your email",
         "ph_subject": "Subject",
         "ph_message": "Message",
-        "project_1": {
-                "title": "AZFAR Prague"
-        }
+        "azfar_subTitle": "BAKU, WHITE CITY",
+        "azfar_title": "Building of AZFAR Residence",
+        "azfar_descrp": "Construction of french type of residence building (construction area 17450m2; two floors car parking; 70 apartments; 6 bloks; 7 floors)",
+        "azfar_clientName": "AZFAR LLC",
+        "azfar_genContr": "HOVERS GROUP",
+        "azfar_addressName": "Green Island district, Baku, Azerbaijan",
+        "azfar_dates": "2015/2018"
 }
