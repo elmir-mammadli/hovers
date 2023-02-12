@@ -2,14 +2,14 @@
 display: flex;
 justify-content: center;
 gap: 24px;
-align-items: center;
+align-items: start;
 }
 
 .project-head-in {
     max-width: 575px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 .project-head-in .projects-location {
@@ -22,7 +22,7 @@ align-items: center;
 }
 
 .project-head-in img {
-    width: 400px;
+    width: 375
     height: 250px;
 }
 
