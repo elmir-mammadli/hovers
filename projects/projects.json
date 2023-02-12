@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "location": "BAKU, WHITE CITY",
+        "name": "Building of AZFAR Residence",
+        "url": "azfar",
+        "description": "Construction of 9 storey building in White City, Baku, Azerbaijan. The building consists of 2 basements, ground floor, 6 floors and 1 roof floor. The building is designed for office use.",
+        "client": "AZFAR GROUP",
+        "img": "https://t4.ftcdn.net/jpg/00/68/63/23/360_F_68632352_kmHLwFc2rQLmnKqn6gM0bhOPqxRTx8sY.jpg"
+    },
+    {
+        "id": 2,
+        "location": "YASAMAL DISTRICT, BAKU",
+        "name": "Building of MOGAN HOTEL",
+        "url": "mogan",
+        "description": "Construction of 9 storey building in White City, Baku, Azerbaijan. The building consists of 2 basements, ground floor, 6 floors and 1 roof floor. The building is designed for office use.",
+        "client": "MOGAN MMC",
+        "img": "https://www.moganhotels.com/wp-content/uploads/2022/04/slide-1.jpg"
+    },
+    {
+        "id": 3,
+        "location": "SHAMAKHI DISTRICT, AZERBAIJAN",
+        "name": "Building of SHAGAN RESIDENTIAL COMPLEX",
+        "url": "shagan",
+        "description": "Construction of 9 storey building in White City, Baku, Azerbaijan. The building consists of 2 basements, ground floor, 6 floors and 1 roof floor. The building is designed for office use.",
+        "client": "MINISTRY OF YOUTH AND SPORTS OF AZERBAIJAN",
+        "img": "https://images.adsttc.com/media/images/5285/1f2b/e8e4/4e52/4b00/01ab/large_jpg/HAC_photo_by_Iwan_Baan_(2).jpg?1384455904"
+    }
+]

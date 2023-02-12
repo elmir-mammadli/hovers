@@ -28,3 +28,4 @@
         clearButton: '<i class="fa fa-lg fa-minus-circle"></i>'
     };
 }));
+
